@@ -31,7 +31,7 @@ li a:hover {
 	color: whitesmoke;
 }
 .cards {
-	height: 310px;
+	height: 292px;
 	width: 70%;
 	margin: 240px 30px 0px 40px;
 	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
@@ -45,6 +45,7 @@ img {
 	border-radius: 13px 15px 0px 0px;
 }
 h2 {
+	font-size: small;
 	margin-top: 2px;
 	text-align: center;
 }
@@ -69,20 +70,25 @@ p {
 @media screen and (max-width: 600px) {
 	.container {
 		display: grid;
-		grid-template-columns: auto auto ;
+		grid-template-columns: auto auto;
 		align-content: space-between;
-		background-image: url(images/hotel.jpg);
-		background-repeat: no-repeat;
 		height: 100%;
-		background-position: center;
-		background-size: cover;
+	}
 	.cards {
-			height: 310px;
-			width: 80%;
-			margin: 10px 0px 10px 22px;
-			box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
-			border: 3px solid rgb(243, 248, 249);
-			border-radius: 15px;
-			background-color: rgb(246, 226, 209);
-		}
+		height: 315px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.container {
+		display: grid;
+		grid-template-columns: auto auto;
+		align-content: center;
+		height: 100%;
+	}
+	.cards {
+		height: 315px;
+		margin: 10px 0px 10px 38px;
+	}
 }
