@@ -66,5 +66,23 @@ p {
 	color: black;
 	border-radius: 3px;
 }
-@media screen() {
+@media screen and (max-width: 600px) {
+	.container {
+		display: grid;
+		grid-template-columns: auto auto ;
+		align-content: space-between;
+		background-image: url(images/hotel.jpg);
+		background-repeat: no-repeat;
+		height: 100%;
+		background-position: center;
+		background-size: cover;
+	.cards {
+			height: 310px;
+			width: 80%;
+			margin: 10px 0px 10px 22px;
+			box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+			border: 3px solid rgb(243, 248, 249);
+			border-radius: 15px;
+			background-color: rgb(246, 226, 209);
+		}
 }
