@@ -46,7 +46,8 @@ h3 {
 	text-align: center;
 }
 p {
-	padding: 0px 2px 0px 6px;
+	padding: 0px 8px 0px 8px;
+	text-align: justify;
 }
 .button {
 	color: white;
@@ -68,15 +69,16 @@ p {
 @media screen and (max-width: 600px) {
 	.container {
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: auto;
 		align-content: space-between;
 		height: 100%;
 	}
 	.cards {
-		margin: 10px 10px 10px 0px;
+		width: 50%;
+		margin: 20px 100px 20px 100px;
 	}
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
 	.container {
 		display: grid;
 		grid-template-columns: auto auto;
