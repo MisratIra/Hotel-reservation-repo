@@ -7,8 +7,6 @@ body {
 	align-content: space-between;
 	background-image: url(images/hotel.jpg);
 	background-repeat: no-repeat;
-	height: 100%;
-	background-position: center;
 	background-size: cover;
 }
 ul {
@@ -31,10 +29,11 @@ li a:hover {
 	color: whitesmoke;
 }
 .cards {
-	margin: 240px 30px 50px 40px;
+	margin: 180px 30px 50px 30px;
 	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
 	border-radius: 15px;
 	background-color: rgb(246, 226, 209);
+	border: 2px solid rgb(249, 112, 97);
 }
 img {
 	width: 100%;
@@ -49,14 +48,21 @@ p {
 	padding: 0px 8px 0px 8px;
 	text-align: justify;
 }
+.icon {
+	color: rgb(233, 134, 89);
+	font-size: 15px;
+	padding: 0px 0px 10px 4px;
+	margin: 0px;
+	text-align: center;
+}
 .button {
-	color: white;
+	color: rgb(15, 15, 15);
 	height: 30px;
 	width: 100%;
 	margin: 0px;
 	border: none;
 	background-color: rgb(78, 186, 249);
-	border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 12px 12px;
 }
 .button:hover {
 	color: whitesmoke;
@@ -68,23 +74,14 @@ p {
 }
 @media screen and (max-width: 600px) {
 	.container {
+		background-image: url(images/bg-hotel-1.jpg);
+		background-repeat: no-repeat;
 		display: grid;
 		grid-template-columns: auto;
 		align-content: space-between;
-		height: 100%;
 	}
 	.cards {
-		width: 50%;
-		margin: 20px 100px 20px 100px;
-	}
-}
-@media screen and (min-width: 800px) {
-	.container {
-		display: grid;
-		grid-template-columns: auto auto;
-		align-content: space-between;
-	}
-	.cards {
-		margin: 10px 15px 10px 15px;
+		width: 45%;
+		margin: 20px 100px 10px 140px;
 	}
 }
