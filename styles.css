@@ -81,7 +81,7 @@ p {
 		align-content: space-between;
 	}
 	.cards {
-		width: 45%;
-		margin: 20px 100px 20px 114px;
+		width: 50%;
+		margin: 20px 90px 10px 90px;
 	}
 }
